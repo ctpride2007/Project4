@@ -12,5 +12,24 @@ using namespace std;
 
 int main()
 {
+	cout << " Patteern A" << endl;
 
+	for (int row = 1; row <= 10; ++row) {
+		for (int col = 0; col < row; ++col) {
+			cout << '+';
+		}
+		cout << endl;
+	}
+
+	cout << endl;
+
+	cout << " Pattern B" << endl;
+
+	for (int row = 10; row >= 1; --row) {
+		for (int col = 0; col < row; ++col) {
+			cout << '+';
+		}
+		cout << endl;
+	}
+	return 0;
 }
